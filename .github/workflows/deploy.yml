@@ -35,7 +35,7 @@ jobs:
       - name: Generate URL Shortener
         uses: pndurette/gh-pages-url-shortener-action@v2
         with:
-          default_redirect: "https:/lnk.bdeceri.fr/cqc"
+          default_redirect: "https://www.helloasso.com/associations/bde-ceri-avignon/boutiques/ceri-qui-court"
           urls_config: "urls.yml"
 
       - name: Upload artifact
